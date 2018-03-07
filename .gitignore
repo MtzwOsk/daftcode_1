@@ -1,0 +1,21 @@
+# ogolne
+.idea
+*.log
+venv
+venv
+*__pycache__
+*__pyc__
+
+# systemowe
+.directory
+.DS_Store
+
+# backend
+backend/public/media/*
+!backend/public/media/_empty_
+backend/logs/*
+!backend/logs/_empty_
+
+# frontend
+frontend/node_modules
+frontend/_build
